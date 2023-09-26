@@ -51,6 +51,7 @@ my_data_rows = my_cur.fetchall()
 #streamlit.text("Hello from Snowflake:")
 #streamlit.text("The fruit load list contains:")
 streamlit.header("The fruit load list contains:")
-streamlit.text(my_data_rows)
+#streamlit.text(my_data_rows)
+streamlit.header(my_data_rows)
 
 
